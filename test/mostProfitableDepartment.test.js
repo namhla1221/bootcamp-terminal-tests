@@ -2,6 +2,8 @@ let assert = require("assert");
 let mostProfitableDepartment = require("../mostProfitableDepartment");
 
 describe ("The mostProfitableDepartment function", function(){
+it ("Should display the most profitable department", function(){
+
     var salesData = [
         {department: "hardware", sales: 4500, day: 'Monday'},
         {department: "outdoor", sales: 1500, day: 'Monday'},
@@ -19,8 +21,7 @@ describe ("The mostProfitableDepartment function", function(){
         {department: "outdoor", sales: 12006, day: 'Friday'},
         {department: "hardware", sales: 16109, day: 'Friday'}
     ];
-    var department = ""
-    it ('Should return items over', function(){
-        assert.equal(department, mostProfitableDepartment(salesData))
-    })
-})
+
+        assert.equal("outdoor", mostProfitableDepartment(salesData))
+    });
+});
