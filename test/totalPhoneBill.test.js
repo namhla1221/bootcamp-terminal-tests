@@ -4,13 +4,13 @@ let totalPhoneBill = require("../totalPhoneBill");
 
 describe("The totalPhoneBill function ", function(item){
 
-it("Should whatever that starts with letter 'c' must return R2.75", function(){
-    assert.equal('R0.00', totalPhoneBill('car'))
+it("Should return anything that startsWith 'c' ", function(){
+    assert.equal('R2.75', totalPhoneBill('call'))
 
 });
 
-it("Should whatever that starts with letter 's' must return R0.65", function(){
-    assert.equal('R0.00',totalPhoneBill('sweet'))
+it("Should return anything that startsWith 's' ", function(){
+    assert.equal('R0.65',totalPhoneBill('sms'))
 });
 
 });
