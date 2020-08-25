@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/namhla1221/bootcamp-terminal-tests/issues"
   },
-  "homepage": "https://github.com/namhla1221/bootcamp-terminal-tests#readme"
+  "homepage": "https://github.com/namhla1221/bootcamp-terminal-tests#readme",
+  "devDependencies": {
+    "mocha": "^8.1.1"
+  }
 }
