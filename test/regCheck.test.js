@@ -6,7 +6,7 @@ describe("regCheck", function(reg1, reg2) {
     
     it("should return true for (GP)", function() {
      
-      assert.equal(false, regCheck('DV 23 LP CY',"GP"));
+      assert.equal(true, regCheck('DV 23, LP , CY , GP',"GP"));
       
     });
 
